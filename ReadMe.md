@@ -1,16 +1,16 @@
-Author
+AUTHOR
 
-OKARONI PURITY NEKESA
+Okaroni Purity Nekesa
 
-Program
+PROGRAM
 
 Foundation to ssoftware engineering
 
-Description of Project
+DESCRIPTION OF THE PROJECT
 
 Creating a photographic site making it visual appealing as possible.
 
-Project setup instructions
+PROJECT SETUP INSTRUCTIONS
 
 Correct use of HTML Elements and tags;
 
