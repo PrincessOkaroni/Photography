@@ -1,14 +1,19 @@
 Author
+
 OKARONI PURITY NEKESA
 
 Program
+
 Foundation to ssoftware engineering
 
 Description of Project
+
 Creating a photographic site making it visual appealing as possible.
 
 Project setup instructions
+
 Correct use of HTML Elements and tags;
+
 p, div, span, header tags, ordered and unordered list tags, img, strong, em
 The page incorporates a custom-made stylesheet
 Use of at least 4 of the following styling rules
