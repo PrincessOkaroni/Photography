@@ -42,34 +42,39 @@ nav a:hover {
 
 }
 
-.home {
-  padding: 50px;
-  text-align: center;
-  background-color: black;
-  color: thistle;
+main {
+  padding: 20px;
 }
-    
 
-.home h2{
+section {
   margin-bottom: 20px;
-  text-align: center;
-  font-size: large;
 }
 
+.home{
+    padding: 50px;
+    text-align: center;
+    background-color: black;
+    color: thistle;
+}
 
-.home img {
-  border-radius: 10px;
-  float: left;
+.home h2 {
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 .home p {
-  text-align: left;
-  font-size: large;
+    text-align: left;
+    font-size: larger;
 }
 
+.home img {
+    border-radius: 10px;
+    float: left;
+}
 .gallery {
   padding: 50px;
   text-align: center;
+  background-color: cadetblue;
 }
 
 .gallery-grid {
@@ -118,7 +123,7 @@ nav a:hover {
 .contact {
   padding: 50px;
   text-align: center;
-  background-color: black;
+  background-color: cornflowerblue;
   color: thistle;
 }
 
