@@ -7,10 +7,20 @@ body {
 
 header {
   background: #333;
-  color: #fff;
   padding: 20px;
   text-align: center;
   `}
+
+  header h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    color: burlywood;
+  }
+
+    header p {
+        font-size: 1.5rem;
+        color: bisque;
+    }
 
 nav {
     display: flex;
@@ -33,28 +43,30 @@ nav a:hover {
 }
 
 .home {
-    padding: 40px 20px;
-    text-align: center;
-    background-color: black;
-    color: thistle;
-    font-size: large;
-    margin-left: 20px;
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: thistle;
 }
+    
+
+.home h2{
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: large;
+}
+
 
 .home img {
-    height: auto;
-    border-radius: 5px;
-    float: left;
-    margin-right: 20px;
+  border-radius: 10px;
+  float: left;
 }
 
-.home h2 {
-    text-align: center;
-    padding: 20px;
-    float: right;
+.home p {
+  text-align: left;
+  font-size: large;
 }
 
-.
 .gallery {
   padding: 50px;
   text-align: center;
@@ -69,6 +81,16 @@ nav a:hover {
 .gallery-grid img {
   width: 100%;
   border-radius: 10px;
+}
+
+.gallery h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.gallery p {
+  text-align: center;
+  font-size: large;
 }
 
 .about {
@@ -90,6 +112,7 @@ nav a:hover {
 
 .about p {
   text-align: left;
+  font-size: large;
 }
 
 .contact {
@@ -108,7 +131,7 @@ nav a:hover {
   padding: 50px;
   text-align: center;
     background-color: black;
-    color: violet;
+    color: wheat;
 }
 
 .services h2 {
@@ -124,6 +147,7 @@ nav a:hover {
 
 .services p {
   text-align: left;
+  font-size: large;
 }
 
 .services img {
