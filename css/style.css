@@ -9,23 +9,23 @@ header {
   background: #333;
   padding: 20px;
   text-align: center;
-  `}
+}
 
-  header h1 {
-    font-size: 3rem;
-    margin-bottom: 20px;
-    color: burlywood;
-  }
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: burlywood;
+}
 
-    header p {
-        font-size: 1.5rem;
-        color: bisque;
-    }
+header p {
+  font-size: 1.5rem;
+  color: aliceblue;
+}
 
 nav {
-    display: flex;
-    justify-content: center;
-    background: #333;
+  display: flex;
+  justify-content: center;
+  background: #333;
 }
 
 nav a {
@@ -36,45 +36,42 @@ nav a {
 }
 
 nav a:hover {
-    background: #555;
-    cursor: pointer;
-  color:orange;
-
+  background: #555;
+  cursor: pointer;
+  color: orange;
 }
 
-main {
-  padding: 20px;
-}
-
-section {
-  margin-bottom: 20px;
-}
-
-.home{
-    padding: 50px;
-    text-align: center;
-    background-color: black;
-    color: thistle;
+.home {
+  padding: 50px;
+  text-align: center;
+  background-color: black;
+  color: thistle;
 }
 
 .home h2 {
-    margin-bottom: 20px;
-    text-align: center;
+  margin-bottom: 20px;
+  font-size: larger;
+  text-align: center;
+  color: blanchedalmond;
 }
 
 .home p {
-    text-align: left;
-    font-size: larger;
+  text-align: left;
+  font-size: larger;
 }
 
 .home img {
-    border-radius: 10px;
-    float: left;
+  display: block;
+  position: relative;
+  margin-top: -20px;
+  border-radius: 5px;
+  float: left;
 }
+
 .gallery {
   padding: 50px;
   text-align: center;
-  background-color: cadetblue;
+  background-color: black;
 }
 
 .gallery-grid {
@@ -91,11 +88,13 @@ section {
 .gallery h2 {
   margin-bottom: 20px;
   text-align: center;
+  color: wheat;
 }
 
 .gallery p {
   text-align: center;
   font-size: large;
+  color: thistle;
 }
 
 .about {
@@ -118,12 +117,13 @@ section {
 .about p {
   text-align: left;
   font-size: large;
+  color: whitesmoke;
 }
 
 .contact {
   padding: 50px;
   text-align: center;
-  background-color: cornflowerblue;
+  background-color: aquamarine;
   color: thistle;
 }
 
@@ -135,8 +135,8 @@ section {
 .services {
   padding: 50px;
   text-align: center;
-    background-color: black;
-    color: wheat;
+  background-color: black;
+  color: wheat;
 }
 
 .services h2 {
