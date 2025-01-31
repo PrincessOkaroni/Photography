@@ -1,33 +1,30 @@
-AUTHOR
+# Photography Project
 
-Okaroni Purity Nekesa
+This project contains various photography works and related information.
 
-PROGRAM
+## Author
 
-Foundation to ssoftware engineering
+This project was created by Purity Nekesa.
 
-DESCRIPTION OF THE PROJECT
+## Features
 
-Creating a photographic site making it visual appealing as possible.
+A homepage with an introduction to photography.
 
-PROJECT SETUP INSTRUCTIONS
+A gallery displaying selected favorite photos with captions.
 
-Correct use of HTML Elements and tags;
+An about section with a short biography.
 
-p, div, span, header tags, ordered and unordered list tags, img, strong, em
-The page incorporates a custom-made stylesheet
-Use of at least 4 of the following styling rules
-selectors
-box model
-background-color
-font family
-pseudoclasses
-strong and em tags
-overflow
-borders
-block elements
-Font weight
-Font style
-The web page is visually appealing
-The project design
-The page is published/deployed to gh-pages
+A functional contact form for visitors.
+
+A visually appealing and responsive design.
+
+## Technologies used
+
+html for structure
+css for styling
+
+## License
+
+This project is licensed under the MIT License.
+
+This project was created by Purity Nekesa.
