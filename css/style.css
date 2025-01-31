@@ -120,18 +120,6 @@ nav a:hover {
   color: whitesmoke;
 }
 
-.contact {
-  padding: 50px;
-  text-align: center;
-  background-color: aquamarine;
-  color: thistle;
-}
-
-.contact h2 {
-  margin-bottom: 20px;
-  text-align: center;
-}
-
 .services {
   padding: 50px;
   text-align: center;
@@ -159,6 +147,49 @@ nav a:hover {
   width: 100%;
   border-radius: 10px;
   float: left;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+form h1 {
+  text-align: center;
 }
 
 footer {

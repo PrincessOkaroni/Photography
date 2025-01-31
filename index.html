@@ -14,18 +14,18 @@
         people in it do
       </p>
       <nav>
-          <li><a href="#home">HOME</a></li>
-          <li><a href="#gallery">GALLERY</a></li>
-          <li><a href="#about">ABOUT</a></li>
-          <li><a href="#services">SERVICES</a></li>
-          <li><a href="#contact">CONTACT</a></li>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#gallery">GALLERY</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#services">SERVICES</a></li>
+        <li><a href="#contact">CONTACT</a></li>
       </nav>
     </header>
 
     <main>
       <section class="home">
         <h2>BIOGRAPHY</h2>
-        <img src="./images/photographer.jpeg" alt="photographer"/>
+        <img src="./images/photographer.jpeg" alt="photographer" />
         <p>
           Hi, I'm Purity, a passionate photographer with a love for capturing
           the beauty of everyday moments. With years of experience in portrait,
@@ -105,11 +105,20 @@
         </div>
       </section>
 
-      <section class="contact">
-        <h2>CONTACTS</h2>
-        <p><email:<a href="purity.photographer@gmail.com"
-        >nekesapurity20@gmail.com</a></p>
-        <p>phone: +254 728740371</p>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+
+          <button type="submit">Send</button>
+        </form>
       </section>
     </main>
 
